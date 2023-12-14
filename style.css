@@ -1,5 +1,16 @@
+* {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
 button {
     position: relative;
     top: 50vh;
-    left: 50vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+    height: auto;
+    border: 1px;
+    border-radius: 30px;
+    padding: 5px;
 }
